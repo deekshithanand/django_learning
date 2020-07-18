@@ -30,3 +30,8 @@ class Listing(models.Model):
 
     def __str__(self):
         return self.title
+
+    
+class Person(models.Model):
+    name = models.CharField(max_length = 30)
+    photo = models.ImageField(upload_to = 'photos')
