@@ -1,0 +1,21 @@
+.block {
+  border: solid;
+  padding: 20px;
+  margin: 20px;
+}
+
+h1 {
+  color: blue;
+  text-align: right;
+}
+
+#p1 {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  text-align: center;
+}
+
+p {
+  text-decoration: underline;
+  text-align: end;
+}

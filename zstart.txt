@@ -1,0 +1,2 @@
+Ok basically , done with register an othr templates stuff
+Next is flash messages, authenticate morrow.

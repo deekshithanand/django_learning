@@ -35,13 +35,15 @@ INSTALLED_APPS = [
     'pages',
     'listings',
     'realtors',
+    'accounts',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'django.contrib.humanize'
+    'django.contrib.humanize',
+   
 ]
 
 MIDDLEWARE = [
@@ -140,3 +142,9 @@ STATICFILES_DIRS = [
 #Set media path
 MEDIA_ROOT = os.path.join(BASE_DIR,'media')
 MEDIA_URL = '/media/'
+
+from django.contrib.messages import constants as messages
+MESSAGE_TAGS = {
+    messages.ERROR: 'danger',
+    messages.SUCCESS : 'success'
+}
